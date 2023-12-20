@@ -12,6 +12,7 @@ class DemoUtilsTest {
 		int expected = 10;
 		int actual = demoUtils.add(6, 4);
 		assertEquals(expected, actual, "6+4 must be 10");
+		assertNotEquals(24, demoUtils.add(4, 6), "4 + 6 must not equl 24");
 	}
 
 }
